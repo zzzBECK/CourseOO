@@ -24,13 +24,14 @@ public class App {
         System.out.println("Enter order data:");
         System.out.print("Status: ");
         
-        // Product p = new Product("TV", 1000.0);
-        // OrderItem ot1 = new OrderItem(1, 1000.0, p);
+        Product p = new Product("TV", 1000.0);
+        OrderItem ot1 = new OrderItem(1, 1000.0, p);
         
-        // Client cli = new Client("Maria", "maria@gmail.com", sdf.parse("20/10/1995"));
+        
+        Client cli = new Client("Maria", "maria@gmail.com", sdf.parse("20/10/1995"));
 
-        // System.out.println(cli);
+        System.out.println(cli);
 
-        // System.out.println(ot1);
+        System.out.println(ot1);
     }
 }
