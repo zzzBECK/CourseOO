@@ -1,0 +1,8 @@
+#Vscode
+.vscode
+
+#Comiled files
+bin/
+
+#Unsed folder
+lib/
